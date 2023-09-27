@@ -2,37 +2,54 @@
   --yellow: #e8ba40;
   --gray: #ded4e8;
   --pink: #c7395f;
+  --rose: #e8b4b8;
+  --rose2: #eed6d3;
+  --coffee: #8b7c7c;
+  --header-footer: #67595e;
 }
 
 body {
-  background: var(--gray);
+  background-color: var(--header-footer);
 }
 
 header {
-  background-color: var(--gray);
-  color: var(--pink);
-  border-color: var(--pink);
+  color: var(--rose);
+  border-color: var(--rose);
   /* border-bottom: 2px solid var(--pink); */
 }
 
-/* .header-button {
-  background: var(--yellow);
-} */
+.explore-button {
+  background-color: var(--rose);
+  color: var(--header-footer);
+}
 
 .logo-round {
-  background: var(--gray);
-  border-color: var(--pink);
+  background: var(--header-footer);
+  border-color: var(--rose);
 }
 
 main {
-  color: var(--pink);
+  color: var(--header-footer);
+  background-color: var(--rose2);
 }
 
 footer {
-  color: var(--pink);
-  border-color: var(--pink);
+  color: var(--rose);
+  border-color: var(--rose);
 }
 
 .main-card {
-  background-color: var(--gray);
+  background-color: var(--header-footer);
+  color: var(--rose);
+}
+
+form > div > input {
+  background-color: var(--rose2);
+  border-color: var(--rose2);
+  color: var(--header-footer);
+}
+button {
+  background-color: var(--rose2);
+  border-color: var(--rose2);
+  color: var(--header-footer);
 }
