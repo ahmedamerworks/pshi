@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pshi-gallery</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body class="flex flex-col items-center">
+    <header class="w-full px-4 py-3 flex justify-center border-b-4">
+      <div class="max-w-4xl w-full">
+        <div class="flex items-center justify-between">
+          <!-- <img
+            class="h-20"
+            src="logo.svg"
+            alt="logo image of Pauline Shi fashion brand"
+          /> -->
+          <div class="header_text my-4 flex flex-col">
+            <h1 class="text-2xl">Welcome message here</h1>
+            <p class="text-sm">Welcome subtext here</p>
+          </div>
+          <button class="sm:hidden hover:text-pink-100" type="button">
+            <svg class="hamburger h-10 fill-current" viewBox="0 0 24 24">
+              <path
+                fill-rule="evenodd"
+                d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div class="relative mt-4 flex mb-2">
+          <div class="w-full flex justify-center">
+            <a
+              href="#"
+              class="font-bold text-xs uppercase mt-2 px-8 py-2 rounded-full bg-pink-100"
+              >Explore</a
+            >
+          </div>
+          <div
+            class="logo-round absolute rounded-full flex justify-center items-center p-5 border-4 right-0"
+          >
+            <img
+              class="w-16 h-16 sm:h-24 sm:w-24"
+              src="logo.svg"
+              alt="logo image of Pauline Shi fashion brand"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main
+      class="pt-16 w-full flex flex-col items-center bg-pink-100 text-center"
+    >
+      <div class="w-full mx-4">
+        <h2 class="font-bold sm:text-2xl text-lg mb-4">Main Header Text</h2>
+        <p class="text-sm mt-4">main content text</p>
+        <h2 class="font-bold sm:text-2xl text-lg mb-4">
+          Play around with the size of your browser to see the changes that
+          occur
+        </h2>
+        <p class="text-sm mt-4">main content text</p>
+
+        <div
+          class="card-container flex flex-col sm:flex-row items-center justify-center"
+        >
+          <div
+            class="main-card h-full sm:w-1/3 w-2/3 p-4 m-4 rounded-2xl flex justify-center flex-col items-center"
+          >
+            <div class="p-2 rounded-full">
+              <img
+                class="h-64"
+                src="shoe.svg"
+                alt="svg image of shoe for the brand of Pauline Shi"
+              />
+            </div>
+            <h2 class="font-bold mb-2">Card Title</h2>
+            <p>Testing text</p>
+          </div>
+          <div
+            class="main-card h-full sm:w-1/3 w-2/3 p-4 m-4 rounded-2xl flex justify-center flex-col items-center"
+          >
+            <div class="p-2 rounded-full">
+              <img
+                class="h-64"
+                src="shoe.svg"
+                alt="svg image of shoe for the brand of Pauline Shi"
+              />
+            </div>
+            <h2 class="font-bold mb-2">Card Title</h2>
+            <p>Some more testing text</p>
+          </div>
+          <div
+            class="main-card h-full sm:w-1/3 w-2/3 p-4 m-4 rounded-2xl flex justify-center flex-col items-center"
+          >
+            <div class="p-2 rounded-full">
+              <img
+                class="h-64"
+                src="shoe.svg"
+                alt="svg image of shoe for the brand of Pauline Shi"
+              />
+            </div>
+            <h2 class="font-bold mb-2">Card Title</h2>
+            <p>Echo! Echo! Echo!</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="h-full w-full border-t-4 flex-col flex items-center">
+      <div class="flex flex-col items-center">
+        <h2 class="sm:text-2xl text-lg font-bold mt-8">
+          Sign up for our newsletter for offers!
+        </h2>
+        <form
+          class="max-w-xl w-full mt-4 px-8 md:px-0"
+          action="#"
+          method="post"
+        >
+          <div class="flex flex-col items-center">
+            <label for="first_name" class="sr-only">First Name</label>
+            <input
+              class="mt-4 form-input bg-gray-400 border-4 rounded-lg py-1 px-4 text-lg w-full"
+              type="text"
+              placeholder="First Name"
+              id="first_name"
+            />
+            <label for="last_name" class="sr-only">Last Name</label>
+            <input
+              class="mt-4 form-input bg-gray-400 border-4 rounded-lg py-1 px-4 text-lg w-full"
+              type="text"
+              placeholder="Last Name"
+              id="last_name"
+            />
+            <label for="mobile" class="sr-only">Mobile Number</label>
+            <input
+              class="mt-4 form-input bg-gray-400 border-4 rounded-lg py-1 px-4 text-lg w-full"
+              type="text"
+              placeholder="Mobile Number"
+              id="mobile"
+            />
+            <label for="email" class="sr-only">Email</label>
+            <input
+              class="mt-4 form-input bg-gray-400 border-4 rounded-lg py-1 px-4 text-lg w-full"
+              type="email"
+              placeholder="Email"
+              id="email"
+            />
+          </div>
+        </form>
+        <button
+          type="button"
+          class="font-bold text-xs uppercase mt-4 px-8 py-2 rounded-full border-4 bg-gray-400"
+        >
+          Sign Up
+        </button>
+      </div>
+      <p class="font-bold text-lg my-8">Copyright © 2023 Pauline Shi</p>
+    </footer>
+  </body>
+</html>

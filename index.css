@@ -1,0 +1,38 @@
+:root {
+  --yellow: #e8ba40;
+  --gray: #ded4e8;
+  --pink: #c7395f;
+}
+
+body {
+  background: var(--gray);
+}
+
+header {
+  background-color: var(--gray);
+  color: var(--pink);
+  border-color: var(--pink);
+  /* border-bottom: 2px solid var(--pink); */
+}
+
+/* .header-button {
+  background: var(--yellow);
+} */
+
+.logo-round {
+  background: var(--gray);
+  border-color: var(--pink);
+}
+
+main {
+  color: var(--pink);
+}
+
+footer {
+  color: var(--pink);
+  border-color: var(--pink);
+}
+
+.main-card {
+  background-color: var(--gray);
+}
