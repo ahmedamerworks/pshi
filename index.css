@@ -48,7 +48,7 @@ form > div > input {
   border-color: var(--rose2);
   color: var(--header-footer);
 }
-button {
+.sign-up {
   background-color: var(--rose2);
   border-color: var(--rose2);
   color: var(--header-footer);
